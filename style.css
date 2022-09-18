@@ -204,6 +204,11 @@ border: 2px solid white;
 
 .layer:hover {
     background: #0000008c;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
 }
 
 .layer h3 {
@@ -276,7 +281,7 @@ border: 2px solid white;
 
 .slide-img {
     width: 100%;
-    height: 64vh;
+    height: 84vh;
     /* background: url(images/paper.jpg);
     background-position: center;
     background-size: cover; */
@@ -294,17 +299,17 @@ border: 2px solid white;
     margin: auto;
     border-radius: 10px;
     width: 54%;
-    height: 50vh;
+    height: fit-content;
 }
 @media(max-width: 800px) {
-    
 .slide-img {
     width: 100%;
-    height: 27vh;
+    height: fit-content;
 }
 .swiper-slide img {
+    left: 30%;
     width: 100%;
-    height: 24vh;
+    height: fit-content;
 }
 }
 

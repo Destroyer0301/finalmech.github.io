@@ -19,7 +19,7 @@ span {
   font-size: 10px;
   margin: 0px;
   padding: 0px;
-  color: purple;
+  color: black;
 }
 
 #one {
@@ -117,8 +117,8 @@ span {
     /* color: #fff; */
 }
 #one {
-  font-size: 11px;
-  margin-left: 12px;
+  font-size: 9px;
+  margin-left: 10px;
 }
 #slider{
   width: 100%;
@@ -126,10 +126,14 @@ span {
 
 }
 #arrow-right {
+  top: 100%;
+  left: 91%;
   border-width: 15px 0px 15px 25px;
   margin-right: 18px;
 }
 #arrow-left{
+  top: 100%;
+  left: -7%;
   border-width: 15px 25px 15px 0px;
   margin-right: 21px;
 }
